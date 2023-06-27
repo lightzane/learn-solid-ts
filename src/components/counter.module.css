@@ -1,0 +1,32 @@
+.counter {
+  margin-top: 1.5rem;
+}
+
+.btnCounter {
+  /* Reset */
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+
+  margin-top: 1rem;
+  /* background-color: #6366f1; */
+  background-color: #0ea5e9;
+  padding: 1rem 3rem;
+  border-radius: 0.5rem; /* rounded-lg */
+  font-size: 1rem;
+  font-weight: 600; /* font-semibold */
+}
+
+.btnCounter:active {
+  transform: scale(0.95);
+}
+
+.text {
+  margin-top: 1rem;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
